@@ -22,9 +22,9 @@
 <layer number="26" name="bNames" color="3" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="3" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="11" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="11" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="3" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="3" fill="6" visible="no" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -18107,24 +18107,6 @@
 <vertex x="23.952203125" y="21.68651875"/>
 <vertex x="23.952203125" y="21.689059375"/>
 </polygon>
-<rectangle x1="54.11724375" y1="22.352" x2="55.0265625" y2="22.560275" layer="41"/>
-<rectangle x1="54.127403125" y1="21.861778125" x2="55.003703125" y2="22.057359375" layer="41"/>
-<rectangle x1="54.1629625" y1="22.857459375" x2="55.0392625" y2="23.053040625" layer="41"/>
-<rectangle x1="53.53558125" y1="23.322278125" x2="54.41188125" y2="23.517859375" layer="41" rot="R90"/>
-<rectangle x1="52.529740625" y1="23.4467375" x2="53.406040625" y2="23.64231875" layer="41" rot="R90"/>
-<rectangle x1="52.0293625" y1="23.4086375" x2="52.9056625" y2="23.60421875" layer="41" rot="R90"/>
-<rectangle x1="51.536603125" y1="23.38831875" x2="52.412903125" y2="23.5839" layer="41" rot="R90"/>
-<rectangle x1="50.89398125" y1="22.844759375" x2="51.77028125" y2="23.040340625" layer="41" rot="R180"/>
-<rectangle x1="50.921921875" y1="22.349459375" x2="51.798221875" y2="22.545040625" layer="41" rot="R180"/>
-<rectangle x1="50.9244625" y1="21.849078125" x2="51.8007625" y2="22.044659375" layer="41" rot="R180"/>
-<rectangle x1="50.944784375" y1="21.3385375" x2="51.821084375" y2="21.53411875" layer="41" rot="R180"/>
-<rectangle x1="52.0166625" y1="20.266659375" x2="52.8929625" y2="20.462240625" layer="41" rot="R270"/>
-<rectangle x1="52.5246625" y1="20.266659375" x2="53.4009625" y2="20.462240625" layer="41" rot="R270"/>
-<rectangle x1="53.027584375" y1="20.2565" x2="53.903884375" y2="20.45208125" layer="41" rot="R270"/>
-<rectangle x1="53.53304375" y1="20.24125625" x2="54.40934375" y2="20.4368375" layer="41" rot="R270"/>
-<rectangle x1="51.506125" y1="20.271740625" x2="52.382425" y2="20.467321875" layer="41" rot="R270"/>
-<rectangle x1="51.9811" y1="21.015959375" x2="52.0801625" y2="22.799040625" layer="41"/>
-<rectangle x1="53.830221875" y1="21.0210375" x2="53.964840625" y2="22.7965" layer="41"/>
 <text x="43.7896" y="18.9484" size="1.27" layer="21" font="vector" ratio="15" rot="R180">+</text>
 <wire x1="43.815" y1="17.8816" x2="42.4942" y2="19.0754" width="0.1778" layer="21" curve="-206.14937"/>
 <wire x1="42.4942" y1="19.0754" x2="42.4942" y2="18.6436" width="0.1778" layer="21"/>
@@ -18883,12 +18865,6 @@
 <vertex x="18.6182" y="15.4178"/>
 <vertex x="18.542" y="15.4432"/>
 </polygon>
-<rectangle x1="52.313840625" y1="20.8915" x2="52.57291875" y2="21.08961875" layer="41"/>
-<rectangle x1="52.829459375" y1="20.8915" x2="53.088534375" y2="21.08961875" layer="41"/>
-<rectangle x1="53.34761875" y1="20.8889625" x2="53.60669375" y2="21.08708125" layer="41"/>
-<rectangle x1="52.334159375" y1="22.829521875" x2="52.593234375" y2="23.027640625" layer="41"/>
-<rectangle x1="52.8447" y1="22.829521875" x2="53.103775" y2="23.027640625" layer="41"/>
-<rectangle x1="53.33491875" y1="22.829521875" x2="53.59399375" y2="23.027640625" layer="41"/>
 <text x="22.479" y="42.291" size="1.778" layer="47" font="vector">Units are in inches</text>
 <dimension x1="2.54" y1="27.94" x2="2.54" y2="0" x3="-5.08" y3="13.97" textsize="1.016" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="2.54" x2="2.54" y2="0" x3="-7.62" y3="1.27" textsize="1.016" layer="47" unit="inch"/>
